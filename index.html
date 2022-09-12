@@ -3,18 +3,28 @@
 <body style="background-color:powderblue">
 
 <title>Optix Center</title>
-<h2 style="font-family:verdana;">this is the best website in world</h2>
-<h4>welcom to da</h4> <h4 style="font-style: italic;"> best site in world.</h4>
-<p>yes, this is da best website in world. u dont belive?</p>
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+</div>
 
-<a href="Minecraft">minecraft.net/es-es/download/alternative</a>
-<p>am tell u</p>
-<button type="button" onclick="alert('fanta')">look, it has butons</button>
-<p>and text</p>
-<p style="color: blue;">and colors</p>
-<h1>so yeah this is da best site in world</h1>
-<button type="button" onclick="alert('u have been rickrolled')">and one more thing</button>
-<audio a
+<div id="London" class="tabcontent">
+  <h3>Hola</h3>
+  <p>Hola.</p>
+</div>
 
+<div id="Paris" class="tabcontent">
+  <h3>Que tal</h3>
+  <p>Escribe algo</p>
+  <button onclick="document.getElementById('myInput').value = ''">Clear input field</button>
+  <input type="text" value="Blabla" id="myInput">
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h3>Adios</h3>
+  <p>nevergonna</p>
+  </div>
+ 
 </body>
 </html>
